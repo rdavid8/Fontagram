@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0665AA1C87541F00B5F8E7 /* logo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A0665A91C87541F00B5F8E7 /* logo3.jpg */; };
+		3A0665B41C87979400B5F8E7 /* 1024icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A0665B31C87979400B5F8E7 /* 1024icon.png */; };
+		3A0665B61C8797CD00B5F8E7 /* frontlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A0665B51C8797CD00B5F8E7 /* frontlogo.jpg */; };
+		721DBB351BB2EDFA004C894C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DBB341BB2EDFA004C894C /* AppDelegate.swift */; };
+		721DBB371BB2EDFA004C894C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DBB361BB2EDFA004C894C /* HomeViewController.swift */; };
+		721DBB3A1BB2EDFA004C894C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721DBB381BB2EDFA004C894C /* Main.storyboard */; };
+		721DBB3C1BB2EDFA004C894C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721DBB3B1BB2EDFA004C894C /* Assets.xcassets */; };
+		722F7DC31BB449F500E38358 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 722F7DC21BB449F500E38358 /* BebasNeue.otf */; };
+		72A3E7C41BB5278000465B0B /* akka.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7B81BB5278000465B0B /* akka.ttf */; };
+		72A3E7C51BB5278000465B0B /* Clubland.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7B91BB5278000465B0B /* Clubland.ttf */; };
+		72A3E7C61BB5278000465B0B /* Coalition_v2_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7BA1BB5278000465B0B /* Coalition_v2_.ttf */; };
+		72A3E7C71BB5278000465B0B /* Comfortaa_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7BB1BB5278000465B0B /* Comfortaa_Regular.ttf */; };
+		72A3E7C81BB5278000465B0B /* depraved.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7BC1BB5278000465B0B /* depraved.ttf */; };
+		72A3E7C91BB5278000465B0B /* Disko.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7BD1BB5278000465B0B /* Disko.ttf */; };
+		72A3E7CA1BB5278000465B0B /* Lobster_1_4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7BE1BB5278000465B0B /* Lobster_1_4.otf */; };
+		72A3E7CB1BB5278000465B0B /* mabella.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7BF1BB5278000465B0B /* mabella.ttf */; };
+		72A3E7CC1BB5278000465B0B /* minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7C01BB5278000465B0B /* minecraft.ttf */; };
+		72A3E7CD1BB5278000465B0B /* padalomai.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7C11BB5278000465B0B /* padalomai.ttf */; };
+		72A3E7CE1BB5278000465B0B /* ROLLER.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7C21BB5278000465B0B /* ROLLER.ttf */; };
+		72A3E7CF1BB5278000465B0B /* wayoshi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7C31BB5278000465B0B /* wayoshi.ttf */; };
+		72A3E7D21BB52DAC00465B0B /* bifurk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7D01BB52DAC00465B0B /* bifurk.ttf */; };
+		72A3E7D31BB52DAC00465B0B /* NEWTOW__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7D11BB52DAC00465B0B /* NEWTOW__.ttf */; };
+		72A3E7F91BB534DE00465B0B /* Chunkfive.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7EA1BB534DE00465B0B /* Chunkfive.otf */; };
+		72A3E7FA1BB534DE00465B0B /* Damion.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7EB1BB534DE00465B0B /* Damion.ttf */; };
+		72A3E7FB1BB534DE00465B0B /* dubbel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7EC1BB534DE00465B0B /* dubbel.ttf */; };
+		72A3E7FC1BB534DE00465B0B /* minus.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7ED1BB534DE00465B0B /* minus.ttf */; };
+		72A3E7FD1BB534DE00465B0B /* NIRVANA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7EE1BB534DE00465B0B /* NIRVANA.ttf */; };
+		72A3E7FE1BB534DE00465B0B /* revenue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7EF1BB534DE00465B0B /* revenue.ttf */; };
+		72A3E7FF1BB534DE00465B0B /* RIOT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F01BB534DE00465B0B /* RIOT.ttf */; };
+		72A3E8001BB534DE00465B0B /* romeral.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F11BB534DE00465B0B /* romeral.otf */; };
+		72A3E8011BB534DE00465B0B /* SilkRoad.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F21BB534DE00465B0B /* SilkRoad.ttf */; };
+		72A3E8021BB534DE00465B0B /* telegrafico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F31BB534DE00465B0B /* telegrafico.ttf */; };
+		72A3E8031BB534DE00465B0B /* TRASHED.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F41BB534DE00465B0B /* TRASHED.ttf */; };
+		72A3E8041BB534DE00465B0B /* UKIJJunu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F51BB534DE00465B0B /* UKIJJunu.ttf */; };
+		72A3E8051BB534DE00465B0B /* VAL_Stencil.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F61BB534DE00465B0B /* VAL_Stencil.otf */; };
+		72A3E8061BB534DE00465B0B /* Vivian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F71BB534DE00465B0B /* Vivian.ttf */; };
+		72A3E8071BB534DE00465B0B /* whoa_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A3E7F81BB534DE00465B0B /* whoa_.ttf */; };
+		72BD89D11BB3DBA800FB97E5 /* ImageEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD89D01BB3DBA800FB97E5 /* ImageEditorViewController.swift */; };
+		72BD89D31BB3DDE200FB97E5 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD89D21BB3DDE200FB97E5 /* Fonts.swift */; };
+		72BD89D51BB3DE2600FB97E5 /* FontCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD89D41BB3DE2600FB97E5 /* FontCell.swift */; };
+		72BD89DC1BB3E61700FB97E5 /* CODE_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72BD89D81BB3E61700FB97E5 /* CODE_Bold.otf */; };
+		72BD89DD1BB3E61700FB97E5 /* Decker.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72BD89D91BB3E61700FB97E5 /* Decker.ttf */; };
+		72BD89DE1BB3E61700FB97E5 /* Melbourne_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72BD89DA1BB3E61700FB97E5 /* Melbourne_reg.otf */; };
+		72BD89DF1BB3E61700FB97E5 /* Oswald.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72BD89DB1BB3E61700FB97E5 /* Oswald.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0665A91C87541F00B5F8E7 /* logo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo3.jpg; path = ../../logo3.jpg; sourceTree = "<group>"; };
+		3A0665B31C87979400B5F8E7 /* 1024icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1024icon.png; path = ../../Downloads/1024icon.png; sourceTree = "<group>"; };
+		3A0665B51C8797CD00B5F8E7 /* frontlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frontlogo.jpg; path = ../../Downloads/frontlogo.jpg; sourceTree = "<group>"; };
+		721DBB311BB2EDFA004C894C /* Fontagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		721DBB341BB2EDFA004C894C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		721DBB361BB2EDFA004C894C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		721DBB391BB2EDFA004C894C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		721DBB3B1BB2EDFA004C894C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		721DBB401BB2EDFA004C894C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722F7DC21BB449F500E38358 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		72A3E7B81BB5278000465B0B /* akka.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = akka.ttf; sourceTree = "<group>"; };
+		72A3E7B91BB5278000465B0B /* Clubland.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clubland.ttf; sourceTree = "<group>"; };
+		72A3E7BA1BB5278000465B0B /* Coalition_v2_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coalition_v2_.ttf; sourceTree = "<group>"; };
+		72A3E7BB1BB5278000465B0B /* Comfortaa_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa_Regular.ttf; sourceTree = "<group>"; };
+		72A3E7BC1BB5278000465B0B /* depraved.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = depraved.ttf; sourceTree = "<group>"; };
+		72A3E7BD1BB5278000465B0B /* Disko.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Disko.ttf; sourceTree = "<group>"; };
+		72A3E7BE1BB5278000465B0B /* Lobster_1_4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobster_1_4.otf; sourceTree = "<group>"; };
+		72A3E7BF1BB5278000465B0B /* mabella.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mabella.ttf; sourceTree = "<group>"; };
+		72A3E7C01BB5278000465B0B /* minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = minecraft.ttf; sourceTree = "<group>"; };
+		72A3E7C11BB5278000465B0B /* padalomai.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = padalomai.ttf; sourceTree = "<group>"; };
+		72A3E7C21BB5278000465B0B /* ROLLER.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ROLLER.ttf; sourceTree = "<group>"; };
+		72A3E7C31BB5278000465B0B /* wayoshi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wayoshi.ttf; sourceTree = "<group>"; };
+		72A3E7D01BB52DAC00465B0B /* bifurk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bifurk.ttf; sourceTree = "<group>"; };
+		72A3E7D11BB52DAC00465B0B /* NEWTOW__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NEWTOW__.ttf; sourceTree = "<group>"; };
+		72A3E7EA1BB534DE00465B0B /* Chunkfive.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chunkfive.otf; sourceTree = "<group>"; };
+		72A3E7EB1BB534DE00465B0B /* Damion.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damion.ttf; sourceTree = "<group>"; };
+		72A3E7EC1BB534DE00465B0B /* dubbel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dubbel.ttf; sourceTree = "<group>"; };
+		72A3E7ED1BB534DE00465B0B /* minus.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = minus.ttf; sourceTree = "<group>"; };
+		72A3E7EE1BB534DE00465B0B /* NIRVANA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NIRVANA.ttf; sourceTree = "<group>"; };
+		72A3E7EF1BB534DE00465B0B /* revenue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = revenue.ttf; sourceTree = "<group>"; };
+		72A3E7F01BB534DE00465B0B /* RIOT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RIOT.ttf; sourceTree = "<group>"; };
+		72A3E7F11BB534DE00465B0B /* romeral.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = romeral.otf; sourceTree = "<group>"; };
+		72A3E7F21BB534DE00465B0B /* SilkRoad.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SilkRoad.ttf; sourceTree = "<group>"; };
+		72A3E7F31BB534DE00465B0B /* telegrafico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = telegrafico.ttf; sourceTree = "<group>"; };
+		72A3E7F41BB534DE00465B0B /* TRASHED.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TRASHED.ttf; sourceTree = "<group>"; };
+		72A3E7F51BB534DE00465B0B /* UKIJJunu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UKIJJunu.ttf; sourceTree = "<group>"; };
+		72A3E7F61BB534DE00465B0B /* VAL_Stencil.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VAL_Stencil.otf; sourceTree = "<group>"; };
+		72A3E7F71BB534DE00465B0B /* Vivian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vivian.ttf; sourceTree = "<group>"; };
+		72A3E7F81BB534DE00465B0B /* whoa_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whoa_.ttf; sourceTree = "<group>"; };
+		72BD89D01BB3DBA800FB97E5 /* ImageEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageEditorViewController.swift; path = ../ImageEditorViewController.swift; sourceTree = "<group>"; };
+		72BD89D21BB3DDE200FB97E5 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		72BD89D41BB3DE2600FB97E5 /* FontCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontCell.swift; sourceTree = "<group>"; };
+		72BD89D81BB3E61700FB97E5 /* CODE_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CODE_Bold.otf; sourceTree = "<group>"; };
+		72BD89D91BB3E61700FB97E5 /* Decker.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Decker.ttf; sourceTree = "<group>"; };
+		72BD89DA1BB3E61700FB97E5 /* Melbourne_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Melbourne_reg.otf; sourceTree = "<group>"; };
+		72BD89DB1BB3E61700FB97E5 /* Oswald.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oswald.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		721DBB2E1BB2EDFA004C894C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A06659B1C86A37400B5F8E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				721DBB361BB2EDFA004C894C /* HomeViewController.swift */,
+				72BD89D01BB3DBA800FB97E5 /* ImageEditorViewController.swift */,
+			);
+			name = Controller;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3A06659C1C86A39C00B5F8E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				721DBB381BB2EDFA004C894C /* Main.storyboard */,
+				3A0665B51C8797CD00B5F8E7 /* frontlogo.jpg */,
+				3A0665B31C87979400B5F8E7 /* 1024icon.png */,
+				3A0665A91C87541F00B5F8E7 /* logo3.jpg */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3A06659D1C86A3B600B5F8E7 /* App Global */ = {
+			isa = PBXGroup;
+			children = (
+				721DBB341BB2EDFA004C894C /* AppDelegate.swift */,
+				721DBB401BB2EDFA004C894C /* Info.plist */,
+			);
+			name = "App Global";
+			sourceTree = "<group>";
+		};
+		3A06659E1C86A3CD00B5F8E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72BD89D41BB3DE2600FB97E5 /* FontCell.swift */,
+				72BD89D21BB3DDE200FB97E5 /* Fonts.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		721DBB281BB2EDFA004C894C = {
+			isa = PBXGroup;
+			children = (
+				721DBB331BB2EDFA004C894C /* Fontmania */,
+				721DBB321BB2EDFA004C894C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		721DBB321BB2EDFA004C894C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				721DBB311BB2EDFA004C894C /* Fontagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721DBB331BB2EDFA004C894C /* Fontmania */ = {
+			isa = PBXGroup;
+			children = (
+				3A06659D1C86A3B600B5F8E7 /* App Global */,
+				3A06659B1C86A37400B5F8E7 /* Controller */,
+				72BD89D71BB3E61700FB97E5 /* Fonts */,
+				3A06659E1C86A3CD00B5F8E7 /* Model */,
+				3A06659C1C86A39C00B5F8E7 /* View */,
+				721DBB3B1BB2EDFA004C894C /* Assets.xcassets */,
+			);
+			path = Fontmania;
+			sourceTree = "<group>";
+		};
+		72BD89D71BB3E61700FB97E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72BD89D81BB3E61700FB97E5 /* CODE_Bold.otf */,
+				72BD89D91BB3E61700FB97E5 /* Decker.ttf */,
+				72BD89DA1BB3E61700FB97E5 /* Melbourne_reg.otf */,
+				72BD89DB1BB3E61700FB97E5 /* Oswald.otf */,
+				722F7DC21BB449F500E38358 /* BebasNeue.otf */,
+				72A3E7B81BB5278000465B0B /* akka.ttf */,
+				72A3E7B91BB5278000465B0B /* Clubland.ttf */,
+				72A3E7BA1BB5278000465B0B /* Coalition_v2_.ttf */,
+				72A3E7BB1BB5278000465B0B /* Comfortaa_Regular.ttf */,
+				72A3E7BC1BB5278000465B0B /* depraved.ttf */,
+				72A3E7BD1BB5278000465B0B /* Disko.ttf */,
+				72A3E7BE1BB5278000465B0B /* Lobster_1_4.otf */,
+				72A3E7BF1BB5278000465B0B /* mabella.ttf */,
+				72A3E7C01BB5278000465B0B /* minecraft.ttf */,
+				72A3E7C11BB5278000465B0B /* padalomai.ttf */,
+				72A3E7C21BB5278000465B0B /* ROLLER.ttf */,
+				72A3E7C31BB5278000465B0B /* wayoshi.ttf */,
+				72A3E7D01BB52DAC00465B0B /* bifurk.ttf */,
+				72A3E7D11BB52DAC00465B0B /* NEWTOW__.ttf */,
+				72A3E7EA1BB534DE00465B0B /* Chunkfive.otf */,
+				72A3E7EB1BB534DE00465B0B /* Damion.ttf */,
+				72A3E7EC1BB534DE00465B0B /* dubbel.ttf */,
+				72A3E7ED1BB534DE00465B0B /* minus.ttf */,
+				72A3E7EE1BB534DE00465B0B /* NIRVANA.ttf */,
+				72A3E7EF1BB534DE00465B0B /* revenue.ttf */,
+				72A3E7F01BB534DE00465B0B /* RIOT.ttf */,
+				72A3E7F11BB534DE00465B0B /* romeral.otf */,
+				72A3E7F21BB534DE00465B0B /* SilkRoad.ttf */,
+				72A3E7F31BB534DE00465B0B /* telegrafico.ttf */,
+				72A3E7F41BB534DE00465B0B /* TRASHED.ttf */,
+				72A3E7F51BB534DE00465B0B /* UKIJJunu.ttf */,
+				72A3E7F61BB534DE00465B0B /* VAL_Stencil.otf */,
+				72A3E7F71BB534DE00465B0B /* Vivian.ttf */,
+				72A3E7F81BB534DE00465B0B /* whoa_.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		721DBB301BB2EDFA004C894C /* Fontagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721DBB431BB2EDFA004C894C /* Build configuration list for PBXNativeTarget "Fontagram" */;
+			buildPhases = (
+				721DBB2D1BB2EDFA004C894C /* Sources */,
+				721DBB2E1BB2EDFA004C894C /* Frameworks */,
+				721DBB2F1BB2EDFA004C894C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fontagram;
+			productName = Fontmania;
+			productReference = 721DBB311BB2EDFA004C894C /* Fontagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		721DBB291BB2EDFA004C894C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ryan David";
+				TargetAttributes = {
+					721DBB301BB2EDFA004C894C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 721DBB2C1BB2EDFA004C894C /* Build configuration list for PBXProject "Fontagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 721DBB281BB2EDFA004C894C;
+			productRefGroup = 721DBB321BB2EDFA004C894C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				721DBB301BB2EDFA004C894C /* Fontagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		721DBB2F1BB2EDFA004C894C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A3E8001BB534DE00465B0B /* romeral.otf in Resources */,
+				72A3E7FD1BB534DE00465B0B /* NIRVANA.ttf in Resources */,
+				72A3E7CB1BB5278000465B0B /* mabella.ttf in Resources */,
+				72BD89DE1BB3E61700FB97E5 /* Melbourne_reg.otf in Resources */,
+				3A0665AA1C87541F00B5F8E7 /* logo3.jpg in Resources */,
+				72A3E7CC1BB5278000465B0B /* minecraft.ttf in Resources */,
+				72A3E7FE1BB534DE00465B0B /* revenue.ttf in Resources */,
+				3A0665B61C8797CD00B5F8E7 /* frontlogo.jpg in Resources */,
+				72BD89DD1BB3E61700FB97E5 /* Decker.ttf in Resources */,
+				72A3E7FC1BB534DE00465B0B /* minus.ttf in Resources */,
+				721DBB3C1BB2EDFA004C894C /* Assets.xcassets in Resources */,
+				72A3E7C81BB5278000465B0B /* depraved.ttf in Resources */,
+				72A3E7C61BB5278000465B0B /* Coalition_v2_.ttf in Resources */,
+				72A3E8071BB534DE00465B0B /* whoa_.ttf in Resources */,
+				72A3E7CD1BB5278000465B0B /* padalomai.ttf in Resources */,
+				72BD89DC1BB3E61700FB97E5 /* CODE_Bold.otf in Resources */,
+				3A0665B41C87979400B5F8E7 /* 1024icon.png in Resources */,
+				72A3E7F91BB534DE00465B0B /* Chunkfive.otf in Resources */,
+				72A3E7C41BB5278000465B0B /* akka.ttf in Resources */,
+				72A3E8021BB534DE00465B0B /* telegrafico.ttf in Resources */,
+				72A3E7FF1BB534DE00465B0B /* RIOT.ttf in Resources */,
+				72A3E7C51BB5278000465B0B /* Clubland.ttf in Resources */,
+				72A3E8051BB534DE00465B0B /* VAL_Stencil.otf in Resources */,
+				72A3E8031BB534DE00465B0B /* TRASHED.ttf in Resources */,
+				72A3E7C71BB5278000465B0B /* Comfortaa_Regular.ttf in Resources */,
+				72A3E7FA1BB534DE00465B0B /* Damion.ttf in Resources */,
+				72A3E7CE1BB5278000465B0B /* ROLLER.ttf in Resources */,
+				72A3E7D21BB52DAC00465B0B /* bifurk.ttf in Resources */,
+				722F7DC31BB449F500E38358 /* BebasNeue.otf in Resources */,
+				72A3E7D31BB52DAC00465B0B /* NEWTOW__.ttf in Resources */,
+				72A3E7CF1BB5278000465B0B /* wayoshi.ttf in Resources */,
+				72A3E7CA1BB5278000465B0B /* Lobster_1_4.otf in Resources */,
+				72A3E8041BB534DE00465B0B /* UKIJJunu.ttf in Resources */,
+				72A3E8011BB534DE00465B0B /* SilkRoad.ttf in Resources */,
+				72A3E7FB1BB534DE00465B0B /* dubbel.ttf in Resources */,
+				72A3E8061BB534DE00465B0B /* Vivian.ttf in Resources */,
+				721DBB3A1BB2EDFA004C894C /* Main.storyboard in Resources */,
+				72BD89DF1BB3E61700FB97E5 /* Oswald.otf in Resources */,
+				72A3E7C91BB5278000465B0B /* Disko.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		721DBB2D1BB2EDFA004C894C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BD89D51BB3DE2600FB97E5 /* FontCell.swift in Sources */,
+				72BD89D11BB3DBA800FB97E5 /* ImageEditorViewController.swift in Sources */,
+				72BD89D31BB3DDE200FB97E5 /* Fonts.swift in Sources */,
+				721DBB371BB2EDFA004C894C /* HomeViewController.swift in Sources */,
+				721DBB351BB2EDFA004C894C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		721DBB381BB2EDFA004C894C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721DBB391BB2EDFA004C894C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		721DBB411BB2EDFA004C894C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		721DBB421BB2EDFA004C894C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		721DBB441BB2EDFA004C894C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fontmania",
+				);
+				INFOPLIST_FILE = Fontmania/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryandavid.Fontagram;
+				PRODUCT_NAME = Fontagram;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		721DBB451BB2EDFA004C894C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fontmania",
+				);
+				INFOPLIST_FILE = Fontmania/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryandavid.Fontagram;
+				PRODUCT_NAME = Fontagram;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		721DBB2C1BB2EDFA004C894C /* Build configuration list for PBXProject "Fontagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721DBB411BB2EDFA004C894C /* Debug */,
+				721DBB421BB2EDFA004C894C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721DBB431BB2EDFA004C894C /* Build configuration list for PBXNativeTarget "Fontagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721DBB441BB2EDFA004C894C /* Debug */,
+				721DBB451BB2EDFA004C894C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 721DBB291BB2EDFA004C894C /* Project object */;
+}
